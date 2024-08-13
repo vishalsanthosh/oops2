@@ -1,0 +1,30 @@
+class Camera{
+int? id;
+String? brand;
+String? color;
+int? price;
+
+Camera({this.id=2,this.brand="Sony",this.color="Black",this.price=150000});
+
+void display(){
+
+print("id=$id");
+print("Brand=$brand");
+print("Color=$color");
+print("price=$price");
+
+
+
+}
+
+
+
+}
+void main(){
+Camera obj=Camera();
+obj.display();
+
+
+
+
+}
